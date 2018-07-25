@@ -40,4 +40,12 @@ SHA-1
 Again, entering the first 20 lines in output.txt on crackstation.net, we get:
 ![Image of crackstation 2](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.03.25%20PM.png)
 
+Like last time, the website is only able to crack the first few lines. But,
+again like last time, the plaintext of each line is the plaintext of the
+previous line plus an additional character. This means that we can again use
+our script, but this time instead of giving the command line argument 'md5'
+we give 'sha1' since that is the hashing algorithm used in this file.
+
+Running the script for output.txt:
+![Gif 2](https://github.com/haseebT/cracking-hashes/blob/master/gifs/2018-07-24%2022.15.30.gif)
 
