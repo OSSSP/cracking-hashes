@@ -36,3 +36,8 @@ Opening up output.txt, we see that it is another file containing hashed lines,
 but instead of each line being 32 hexadecimal digits, each line is actually
 40 hexadecimal digits. This makes it likely that each line was hashed using
 SHA-1
+
+Again, entering the first 20 lines in output.txt on crackstation.net, we get:
+![Image of crackstation 2](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.03.25%20PM.png)
+
+
