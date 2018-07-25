@@ -28,4 +28,11 @@ previous line plus an additional character to crack the hashes.
 Running the script:
 ![Gif 1](https://github.com/haseebT/cracking-hashes/blob/master/gifs/2018-07-24%2021.38.24.gif)
 
+After running the script, we see that the first line outputted by our script
+is `Who designed both RC5 and MD5?` (Answer: Ronald Rivest).
+The rest of the lines were written to output.txt
 
+Opening up output.txt, we see that it is another file containing hashed lines,
+but instead of each line being 32 hexadecimal digits, each line is actually
+40 hexadecimal digits. This makes it likely that each line was hashed using
+SHA-1
