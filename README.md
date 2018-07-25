@@ -12,6 +12,7 @@ an MD5 hash.
 
 Let us see if the website crackstation.net can crack the hashes for us.
 Entering the first 20 lines in puzzle.txt on crackstation.net:
+![Image of crackstation 1](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%208.45.50%20PM.png)
 
 Unfortunately, the website is only able to crack the first 4 lines. But,
 observing more closely, we can see that the plaintext of the 4th line is the
