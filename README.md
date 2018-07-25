@@ -24,3 +24,8 @@ puzzle. The script takes in 3 command line arguments (file name of puzzle,
 hashing algorithm used by the puzzle file, and the name of the output file),
 and uses the fact that the plaintext of a line is the plaintext of the
 previous line plus an additional character to crack the hashes.
+
+Running the script:
+![Gif 1](https://github.com/haseebT/cracking-hashes/blob/master/gifs/2018-07-24%2021.38.24.gif)
+
+
