@@ -49,3 +49,6 @@ we give 'sha1' since that is the hashing algorithm used in this file.
 Running the script for output.txt:
 ![Gif 2](https://github.com/haseebT/cracking-hashes/blob/master/gifs/2018-07-24%2022.15.30.gif)
 
+This time we see that the first line outputted by our script is
+`What organization designed SHA-1?` (Answer: NSA).
+The rest of the lines were written to output2.txt
