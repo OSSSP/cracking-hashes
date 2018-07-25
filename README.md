@@ -11,7 +11,7 @@ each line contains 32 hexadecimal digits (128 bits), which probably means its
 an MD5 hash.
 
 Let us see if the website crackstation.net can crack the hashes for us.
-Entering the first 20 lines in puzzle.txt on crackstation.net:
+Entering the first 20 lines of puzzle.txt on crackstation.net:
 ![Image of crackstation 1](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%208.45.50%20PM.png)
 
 Unfortunately, the website is only able to crack the first 4 lines. But,
@@ -37,7 +37,7 @@ but instead of each line being 32 hexadecimal digits, each line is actually
 40 hexadecimal digits. This makes it likely that each line was hashed using
 SHA-1
 
-Again, entering the first 20 lines in output.txt on crackstation.net, we get:
+Again, entering the first 20 lines of output.txt on crackstation.net, we get:
 ![Image of crackstation 2](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.03.25%20PM.png)
 
 Like last time, the website is only able to crack the first few lines. But,
@@ -52,3 +52,11 @@ Running the script for output.txt:
 This time we see that the first line outputted by our script is
 `What organization designed SHA-1?` (Answer: NSA).
 The rest of the lines were written to output2.txt
+
+Doing the same thing we've previously been doing, opening the output2.txt file
+shows hashed lines, with each line containing 64 hexadecimal digits. This
+likely means the lines were hashed using either SHA2-256 or SHA3-256.
+
+Entering the first 20 lines of output2.txt on crackstation.net, we get:
+![Image of crackstation 3](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.35.03%20PM.png)
+
