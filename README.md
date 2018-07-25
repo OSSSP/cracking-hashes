@@ -34,8 +34,8 @@ The rest of the lines were written to output.txt
 
 Opening up output.txt, we see that it is another file containing hashed lines,
 but instead of each line being 32 hexadecimal digits, each line is actually
-40 hexadecimal digits. This makes it likely that each line was hashed using
-SHA-1
+40 hexadecimal digits (160 bits). This makes it likely that each line was 
+hashed using SHA-1.
 
 Again, entering the first 20 lines of output.txt on crackstation.net, we get:
 ![Image of crackstation 2](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.03.25%20PM.png)
@@ -54,8 +54,8 @@ This time we see that the first line outputted by our script is
 The rest of the lines were written to output2.txt
 
 Doing the same thing we've previously been doing, opening the output2.txt file
-shows hashed lines, with each line containing 64 hexadecimal digits. This
-likely means the lines were hashed using either SHA2-256 or SHA3-256.
+shows hashed lines, with each line containing 64 hexadecimal digits (256 bits).
+This likely means the lines were hashed using either SHA2-256 or SHA3-256.
 
 Entering the first 20 lines of output2.txt on crackstation.net, we get:
 ![Image of crackstation 3](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.35.03%20PM.png)
