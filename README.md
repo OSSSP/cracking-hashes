@@ -15,9 +15,9 @@ Entering the first 20 lines in puzzle.txt on crackstation.net:
 ![Image of crackstation 1](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%208.45.50%20PM.png)
 
 Unfortunately, the website is only able to crack the first 4 lines. But,
-observing more closely, we can see that the plaintext of the 4th line is the
-plaintext of the 3rd line plus an additional character. The same holds true
-for the 3rd and 2nd line, and for the 2nd and 1st line.
+observing more closely, we can see that the plaintext of the 4th line (Who)
+is the plaintext of the 3rd line (Wh) plus an additional character. The same
+holds true for the 3rd and 2nd line, and for the 2nd and 1st line.
 
 Knowing this, we can write a python script cracking_hashes.py to solve the
 puzzle. The script takes in 3 command line arguments (file name of puzzle,
