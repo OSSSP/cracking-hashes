@@ -60,3 +60,15 @@ likely means the lines were hashed using either SHA2-256 or SHA3-256.
 Entering the first 20 lines of output2.txt on crackstation.net, we get:
 ![Image of crackstation 3](https://github.com/haseebT/cracking-hashes/blob/master/screenshots/Screen%20Shot%202018-07-24%20at%2010.35.03%20PM.png)
 
+This time, the website is unable to crack any of the lines. Since
+crackstation.net only supports SHA2-256 between SHA2-256 and SHA3-256, let us
+see if our script will work on output2.txt using SHA3-256.
+
+Running the script for output2.txt:
+![Gif 3](https://github.com/haseebT/cracking-hashes/blob/master/gifs/2018-07-24%2022.47.35.gif)
+
+The first line outputted by our script is
+`Who co-developed both AES and SHA-3?` (Answer: Joan Daemen).
+
+Opening output3.txt shows that it is an empty file, which means that we have
+finally solved the puzzle :)
